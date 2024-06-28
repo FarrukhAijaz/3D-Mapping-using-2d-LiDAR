@@ -1,3 +1,5 @@
+# Description : A Node in ROS2 named "reference" that sets the current servo angle to be the reference (in this code it is set to 0) #
+# Author: Farrukh Aijaz #
 from gpiozero import Servo
 from gpiozero.pins.pigpio import PiGPIOFactory
 import math
